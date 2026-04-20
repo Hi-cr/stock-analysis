@@ -31,7 +31,6 @@ for category in data:
     for ticker in data[category]:
         df = data[category][ticker].copy()
 
-        # 🔥 如果是 multi-index（保險寫法）
         if isinstance(df.columns, pd.MultiIndex):
             df.columns = df.columns.get_level_values(0)
 
