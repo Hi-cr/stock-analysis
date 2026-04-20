@@ -84,9 +84,13 @@
 ---
 
 ## 使用技術
-- Python
-- yfinance
-- mplfinance
+* 資料來源：yfinance
+* 程式語言：Python
+* 視覺化工具 : mplfinance
+* 環境：Python、Jupyter Notebook 
+* 輔助IDE：google 
+* 輔助AI：ChatGPT、Gemini
+- 
 
 ---
 
